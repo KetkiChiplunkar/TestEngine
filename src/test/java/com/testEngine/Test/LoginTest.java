@@ -29,7 +29,7 @@ public class LoginTest extends testBase {
 		//emailAddress = this.emailAddress;
 		//password = this.password;
 		openBrowser("Chrome");
-login("chiplunkar.k1@gmail.com","ket190785");
+login("chiplunkar.k1@gmail.com","");
 		//System.out.println("emailAddress "+ emailAddress+ "password "+password);
 	}
 
