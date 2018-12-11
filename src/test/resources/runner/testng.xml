@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestEngine">
+	<listeners>
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+       <listener class-name="CustomListeners.reportListener" />
+	</listeners>
+	<test thread-count="1" name="TestEngineTestSuite">
+		<classes>
+			<!-- <class name="com.testEngine.Test.ContactUs" />  -->
+			 <!--<class name="com.testEngine.Test.SearchTest" /> -->
+			<!-- <class name="com.testEngine.Test.LoginTest" />  -->
+           <!--  <class name="com.testEngine.Test.GiftCard" />-->
+            <class name="com.testEngine.Test.zohoCustomersTest" />
+            
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+<objectRef>
+<GiftCardLink>//a[contains(.,'Gift Cards')]</GiftCardLink>
+<SendGiftCard>//button[contains(.,'SEND GIFT CARD')]</SendGiftCard>
+<custLink>//a[@class='zh-customers']</custLink>
+<custCount>//span[@class='zcount in-view']</custCount>
+</objectRef>
